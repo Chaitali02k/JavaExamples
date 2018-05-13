@@ -17,8 +17,7 @@ public class StringPractice {
 	}
 
 	public static void concat1(String s1) {
-		s1= s1 + "forgeeks";
-		
+		s1= s1 + "forgeeks";		
 	}
 
 	// Concatenates to StringBuilder
