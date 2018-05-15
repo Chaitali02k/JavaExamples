@@ -18,15 +18,15 @@ public class HashTableExample {
 
 		// get Loki's number:
 		System.out.println("Loki’s number is: " + phoneBook.get("loki"));
-//
-//		// iterate over all entries
-//		for (Enumeration<String> names = phoneBook.keys(); names.hasMoreElements();) {
-//			String name = names.nextElement();
-//			System.out.println(name + ": " + phoneBook.get(name));
-//		}
-//		
-//		// remove element
-//		phoneBook.remove("linus");
+
+		// iterate over all entries
+		for (Enumeration<String> names = phoneBook.keys(); names.hasMoreElements();) {
+			String name = names.nextElement();
+			System.out.println(name + ": " + phoneBook.get(name));
+		}
+		
+		// remove element
+		phoneBook.remove("linus");
 
 	}
 
