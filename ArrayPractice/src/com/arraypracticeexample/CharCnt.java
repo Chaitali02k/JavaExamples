@@ -22,8 +22,10 @@ public class CharCnt {
 		}
 
 		char[] ch = new char[str.length()];
+		
 		for (int i = 0; i < length; i++) {
 			ch[i] = str.charAt(i);
+		
 			int find = 0;
 			for (int j = 0; j <= i; j++) {
 				if (str.charAt(i) == ch[j])
@@ -35,5 +37,4 @@ public class CharCnt {
 			}
 		}
 	}
-
 }
