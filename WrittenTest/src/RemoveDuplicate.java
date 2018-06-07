@@ -13,12 +13,17 @@ public class RemoveDuplicate {
 		Set<Character> charSet = new LinkedHashSet<Character>();
 
 		for (char c : chars) {
-			// charSet.add(c);
-			charSet.add(Character.valueOf(c));
-
+			charSet.add(c);
+			//charSet.add(Character.valueOf(c));
+		}
+		
+		StringBuilder sb = new StringBuilder();
+		
+		for (Character character : charSet) {
+		sb.append(character);
 		}
 
-		System.out.println(charSet.toString());
+		System.out.println(sb.toString());
 	}
 
 }
