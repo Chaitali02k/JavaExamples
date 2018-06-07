@@ -29,7 +29,7 @@ public class SecondLargestElement {
 			System.out.println(numbers[i]);
 		}
 
-		return numbers[0];
+		return numbers[numbers.length-2];
 	}
 
 }
